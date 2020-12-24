@@ -89,7 +89,6 @@ pyqt                      5.9.2            py38h655552a_2
 pyrsistent                0.17.3           py38haf1e3a3_0  
 python                    3.8.5                h26836e1_1  
 python-dateutil           2.8.1                      py_0  
-pytorch                   1.6.0           cpu_py38hd70000b_0  
 pyzmq                     20.0.0           py38h23ab428_1  
 qt                        5.9.7                h468cd18_1  
 qtconsole                 4.7.7                      py_0  
@@ -103,8 +102,11 @@ sqlite                    3.33.0               hffcf06c_0
 terminado                 0.9.1                    py38_0  
 testpath                  0.4.4                      py_0  
 tk                        8.6.10               hb0a8c7a_0  
+torch                     1.7.1                    pypi_0    pypi
+torchvision               0.8.2                    pypi_0    pypi
 tornado                   6.1              py38h9ed2024_0  
 traitlets                 5.0.5                      py_0  
+typing-extensions         3.7.4.3                  pypi_0    pypi
 wcwidth                   0.2.5                      py_0  
 webencodings              0.5.1                    py38_1  
 wheel                     0.36.2             pyhd3eb1b0_0  

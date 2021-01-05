@@ -15778,6 +15778,9 @@ Epoch [   40/   40] | d_loss: 0.6801 | g_loss: 2.3397
 <p>The model has learned the various regions of the face. It has all the components and they are in the right place.</p>
 <p>It has not however, learned that the color of the components need to match; in several of the images, the skin tones are inconsistant. The model also has trouble with the edge of the faces: the hairline, the background behind the face and in several cases there is asymetric rouge.</p>
 <p>To improve this model, I could obviously make it bigger and run it for more epochs. As for the architecture desicisions, I chose to follow the original paper.</p>
+<p><strong>Review</strong></p>
+<p>You could make generator bigger than the discriminator in terms of the depth of the network. It has been shown in recent research that a generator bigger than the discriminator tends to produce better results. So, a generator with more layers is definitely going to help learn better representations.</p>
+<p><a href="https://machinelearningmastery.com/using-learning-rate-schedules-deep-learning-models-python-keras/">scheduled learning rate</a></p>
 
 </div>
 </div>
